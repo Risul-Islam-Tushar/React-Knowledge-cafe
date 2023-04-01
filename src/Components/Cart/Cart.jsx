@@ -28,8 +28,8 @@ const Cart = (props) => {
                         #programming
                     </div>
 
-                    <div className='text-left '>
-                        <a href="www.aiub.com">mark as read</a>
+                    <div className='text-left text-violet-600'>
+                        <button> <u> mark as read</u></button>
                     </div>
                 </div>
             </div>
