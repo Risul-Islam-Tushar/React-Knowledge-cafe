@@ -23,7 +23,7 @@ const Cart = (props) => {
                         </div>
                         <div  >
                             {readtime} minute 
-                            <button onClick={() => handleRightCart(props.data)}> <FontAwesomeIcon className='ms-2' icon={faBookmark} /></button>
+                            <button onClick={() => handleBookMark(props.data)}> <FontAwesomeIcon className='ms-2' icon={faBookmark} /></button>
                             
                         </div>
                     </div>
@@ -35,7 +35,7 @@ const Cart = (props) => {
                     </div>
 
                     <div className='text-left text-violet-600'>
-                        <button onClick={() => handleBookMark(props.data)}> <u> mark as read</u></button>
+                        <button onClick={() => handleRightCart(props.data) }> <u> mark as read</u></button>
                     </div>
                 </div>
             </div>
@@ -44,5 +44,10 @@ const Cart = (props) => {
       
     );
 };
-
+<div>
+1.ans:Props allow us to pass data from one component to other components as an argument. State holds information about the components.
+2.ans:The useState() is a Hook that allows us to have state variables in functional components, basically useState is the ability to encapsulate local state in a functional component.
+3.ans:useEffect doesn't have any dependencies on any state variables.
+4.ans: building interactive user interfaces and web applications quickly and efficiently with significantly less code than you would with vanilla JavaScript.
+</div>
 export default Cart;
