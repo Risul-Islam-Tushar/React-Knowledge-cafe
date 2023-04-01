@@ -12,8 +12,13 @@ function App() {
     <div className="App">
       <Nav></Nav>
       <Body></Body>
+    
     </div>
   )
+  
 }
 
+
 export default App
+
+
