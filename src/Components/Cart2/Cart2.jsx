@@ -34,17 +34,7 @@ const Cart2 = (props) => {
 
                     </div>
                 </div>
-                <div className='w-96 mt-16' >
-                    <h1>1.ans:Props allow us to pass data from one component to other components as an argument. State holds information about the components.</h1>
-                    <h1>2.ans:The useState() is a Hook that allows us to have state variables in functional components, basically useState is the ability to encapsulate local state in a functional component.</h1>
-                    <h1>3.ans:useEffect doesn't have any dependencies on any state variables.</h1>
-                    <h1> 4.ans: building interactive user interfaces and web applications quickly and efficiently with significantly less code than you would with vanilla JavaScript.  </h1>
-                    
-                    
-                    
-                   
-
-                </div>
+               
             </div>
 
         </div>
